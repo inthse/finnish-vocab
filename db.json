@@ -1,0 +1,25 @@
+{
+  "words" : [
+    {
+      "id": 1, //by rank
+      "Finnish": "olla",
+      "English": "to be",
+      "partOfSpeech": "verb",
+      "details": "minä olen"
+    },
+    {
+      "id": 2,
+      "Finnish": "ja",
+      "English": "and",
+      "partOfSpeech": "conjunction",
+      "details": "ja, jan, jata, jahan"
+    },
+    {
+      "id": 3,
+      "Finnish": "ei",
+      "English": "no",
+      "partOfSpeech": "verb",
+      "details": "minä en"
+    },
+  ]
+}
