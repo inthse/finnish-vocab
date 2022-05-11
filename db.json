@@ -28,7 +28,6 @@
     {"id":26,"Finnish":"kaikki","English":"all","partOfSpeech":"adjective, noun","details":""},
     {"id":27,"Finnish":"markka","English":"former Finnish currency, wealth","partOfSpeech":"moun","details":""},
     {"id":28,"Finnish":"nyt","English":"now","partOfSpeech":"adverb","details":""},
-    {"id":29,"Finnish":"suuri","English":"big, great","partOfSpeech":"adjective","details":""},
-    {"id":30,"Finnish":"kertoa","English":"to tell","partOfSpeech":"verb","details":""}
+    {"id":29,"Finnish":"suuri","English":"big, great","partOfSpeech":"adjective","details":""}
   ]
 }
