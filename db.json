@@ -1,33 +1,294 @@
 {
-  "words" : [
-    {"id":1,"Finnish":"olla","English":"to be","partOfSpeech":"verb","details":""},
-    {"id":2,"Finnish":"ja","English":"and","partOfSpeech":"conjunction","details":""},
-    {"id":3,"Finnish":"ei","English":"no","partOfSpeech":"verb","details":""},
-    {"id":4,"Finnish":"se","English":"it","partOfSpeech":"pronoun","details":""},
-    {"id":5,"Finnish":"että","English":"that","partOfSpeech":"conjunction","details":""},
-    {"id":6,"Finnish":"joka","English":"which","partOfSpeech":"pronoun","details":""},
-    {"id":7,"Finnish":"vuosi","English":"year","partOfSpeech":"noun","details":""},
-    {"id":8,"Finnish":"hän","English":"he/she","partOfSpeech":"pronoun","details":""},
-    {"id":9,"Finnish":"myös","English":"also","partOfSpeech":"adverb","details":""},
-    {"id":10,"Finnish":"saada","English":"to get, to receive","partOfSpeech":"verb","details":""},
-    {"id":11,"Finnish":"mutta","English":"but","partOfSpeech":"conjunction","details":""},
-    {"id":12,"Finnish":"tämä","English":"this","partOfSpeech":"pronoun","details":""},
-    {"id":13,"Finnish":"voida","English":"to be able","partOfSpeech":"verb","details":""},
-    {"id":14,"Finnish":"tulla","English":"to come","partOfSpeech":"verb","details":""},
-    {"id":15,"Finnish":"Suomi","English":"Finland, the Finnish language","partOfSpeech":"noun","details":""},
-    {"id":16,"Finnish":"tehdä","English":"to do, to make","partOfSpeech":"verb","details":""},
-    {"id":17,"Finnish":"kun","English":"when","partOfSpeech":"conjunction","details":""},
-    {"id":18,"Finnish":"pitää","English":"to keep, to have to","partOfSpeech":"verb","details":""},
-    {"id":19,"Finnish":"mukaan","English":"along with, according to","partOfSpeech":"adverb","details":""},
-    {"id":20,"Finnish":"uusi","English":"new","partOfSpeech":"adjective","details":""},
-    {"id":21,"Finnish":"jo","English":"already","partOfSpeech":"adverb","details":""},
-    {"id":22,"Finnish":"kuin","English":"than, like","partOfSpeech":"conjunction","details":""},
-    {"id":23,"Finnish":"hyvä","English":"good","partOfSpeech":"adjective","details":""},
-    {"id":24,"Finnish":"ne","English":"they (objects)","partOfSpeech":"pronoun","details":""},
-    {"id":25,"Finnish":"sanoa","English":"to say","partOfSpeech":"verb","details":""},
-    {"id":26,"Finnish":"kaikki","English":"all","partOfSpeech":"adjective, noun","details":""},
-    {"id":27,"Finnish":"markka","English":"former Finnish currency, wealth","partOfSpeech":"moun","details":""},
-    {"id":28,"Finnish":"nyt","English":"now","partOfSpeech":"adverb","details":""},
-    {"id":29,"Finnish":"suuri","English":"big, great","partOfSpeech":"adjective","details":""}
+  "words": [
+    {
+      "id": 1,
+      "Finnish": "olla",
+      "English": "to be",
+      "partOfSpeech": "verb",
+      "details": {
+        "pronunciation": "/ˈolːɑˣ/, [ˈo̞lːɑ(ʔ)]",
+        "audio": "https://en.wiktionary.org/wiki/File:Fi-olla.ogg"
+      }
+    },
+    {
+      "id": 2,
+      "Finnish": "ja",
+      "English": "and",
+      "partOfSpeech": "conjunction",
+      "details": {
+        "pronunciation": "/ˈjɑ/, [ˈjɑ]",
+        "audio": "https://en.wiktionary.org/wiki/File:Fi-ja.ogg"
+      }
+    },
+    {
+      "id": 3,
+      "Finnish": "ei",
+      "English": "no",
+      "partOfSpeech": "verb",
+      "details": {
+        "pronunciation": "/ˈei̯/, [ˈe̞i̯]",
+        "audio": "https://en.wiktionary.org/wiki/File:Fi-ei.ogg"
+      }
+    },
+    {
+      "id": 4,
+      "Finnish": "se",
+      "English": "it",
+      "partOfSpeech": "pronoun",
+      "details": {
+        "pronunciation": "/ˈse/, [ˈs̠e̞]",
+        "audio": ""
+      }
+    },
+    {
+      "id": 5,
+      "Finnish": "että",
+      "English": "that",
+      "partOfSpeech": "conjunction",
+      "details": {
+        "pronunciation": "/ˈetːæ/, [ˈe̞t̪ːæ]",
+        "audio": ""
+      }
+    },
+    {
+      "id": 6,
+      "Finnish": "joka",
+      "English": "which",
+      "partOfSpeech": "pronoun",
+      "details": {
+        "pronunciation": "/ˈjokɑ/, [ˈjo̞kɑ]",
+        "audio": ""
+      }
+    },
+    {
+      "id": 7,
+      "Finnish": "vuosi",
+      "English": "year",
+      "partOfSpeech": "noun",
+      "details": {
+        "pronunciation": "/ˈʋuo̯si/, [ˈʋuo̞̯s̠i]",
+        "audio": ""
+      }
+    },
+    {
+      "id": 8,
+      "Finnish": "hän",
+      "English": "he/she",
+      "partOfSpeech": "pronoun",
+      "details": {
+        "pronunciation": "/ˈhæn/, [ˈhæn]",
+        "audio": "https://en.wiktionary.org/wiki/File:Fi-h%C3%A4n-2.oga"
+      }
+    },
+    {
+      "id": 9,
+      "Finnish": "myös",
+      "English": "also",
+      "partOfSpeech": "adverb",
+      "details": {
+        "pronunciation": "/ˈmyø̯s/, [ˈmyø̞̯s̠]",
+        "audio": ""
+      }
+    },
+    {
+      "id": 10,
+      "Finnish": "saada",
+      "English": "to get, to receive",
+      "partOfSpeech": "verb",
+      "details": {
+        "pronunciation": "/ˈsɑːdɑˣ/, [ˈs̠ɑːdɑ(ʔ)]",
+        "audio": ""
+      }
+    },
+    {
+      "id": 11,
+      "Finnish": "mutta",
+      "English": "but",
+      "partOfSpeech": "conjunction",
+      "details": {
+        "pronunciation": "/ˈmutːɑ/, [ˈmut̪ːɑ]",
+        "audio": ""
+      }
+    },
+    {
+      "id": 12,
+      "Finnish": "tämä",
+      "English": "this",
+      "partOfSpeech": "pronoun",
+      "details": {
+        "pronunciation": "/ˈtæmæ/, [ˈt̪æmæ]",
+        "audio": ""
+      }
+    },
+    {
+      "id": 13,
+      "Finnish": "voida",
+      "English": "to be able",
+      "partOfSpeech": "verb",
+      "details": {
+        "pronunciation": "/ˈʋoi̯dɑˣ/, [ˈʋo̞i̯dɑ(ʔ)]",
+        "audio": ""
+      }
+    },
+    {
+      "id": 14,
+      "Finnish": "tulla",
+      "English": "to come",
+      "partOfSpeech": "verb",
+      "details": {
+        "pronunciation": "/ˈtulːɑˣ/, [ˈt̪ulːɑ(ʔ)]",
+        "audio": ""
+      }
+    },
+    {
+      "id": 15,
+      "Finnish": "Suomi",
+      "English": "Finland, the Finnish language",
+      "partOfSpeech": "noun",
+      "details": {
+        "pronunciation": "/ˈsuo̯mi/, [ˈs̠uo̞̯mi]",
+        "audio": "https://en.wiktionary.org/wiki/File:Fi-suomi.ogg"
+      }
+    },
+    {
+      "id": 16,
+      "Finnish": "tehdä",
+      "English": "to do, to make",
+      "partOfSpeech": "verb",
+      "details": {
+        "pronunciation": "/ˈtehdæˣ/, [ˈt̪e̞hdæ(ʔ)]",
+        "audio": ""
+      }
+    },
+    {
+      "id": 17,
+      "Finnish": "kun",
+      "English": "when",
+      "partOfSpeech": "conjunction",
+      "details": {
+        "pronunciation": "/ˈkun/, [ˈkun]",
+        "audio": ""
+      }
+    },
+    {
+      "id": 18,
+      "Finnish": "pitää",
+      "English": "to keep, to have to",
+      "partOfSpeech": "verb",
+      "details": {
+        "pronunciation": "/ˈpitæːˣ/, [ˈpit̪æː(ʔ)]",
+        "audio": ""
+      }
+    },
+    {
+      "id": 19,
+      "Finnish": "mukaan",
+      "English": "along with, according to",
+      "partOfSpeech": "adverb",
+      "details": {
+        "pronunciation": "/ˈmukɑːn/, [ˈmukɑːn]",
+        "audio": ""
+      }
+    },
+    {
+      "id": 20,
+      "Finnish": "uusi",
+      "English": "new",
+      "partOfSpeech": "adjective",
+      "details": {
+        "pronunciation": "/ˈuːsi/, [ˈuːs̠i]",
+        "audio": ""
+      }
+    },
+    {
+      "id": 21,
+      "Finnish": "jo",
+      "English": "already",
+      "partOfSpeech": "adverb",
+      "details": {
+        "pronunciation": "/ˈjo/, [ˈjo̞]",
+        "audio": ""
+      }
+    },
+    {
+      "id": 22,
+      "Finnish": "kuin",
+      "English": "than, like",
+      "partOfSpeech": "conjunction",
+      "details": {
+        "pronunciation": "/ˈkui̯n/, [ˈkui̯n]",
+        "audio": ""
+      }
+    },
+    {
+      "id": 23,
+      "Finnish": "hyvä",
+      "English": "good",
+      "partOfSpeech": "adjective",
+      "details": {
+        "pronunciation": "/ˈhyʋæ/, [ˈhyʋæ]",
+        "audio": ""
+      }
+    },
+    {
+      "id": 24,
+      "Finnish": "ne",
+      "English": "they (objects)",
+      "partOfSpeech": "pronoun",
+      "details": {
+        "pronunciation": "/ˈne/, [ˈne̞]",
+        "audio": ""
+      }
+    },
+    {
+      "id": 25,
+      "Finnish": "sanoa",
+      "English": "to say",
+      "partOfSpeech": "verb",
+      "details": {
+        "pronunciation": "/ˈsɑnoɑˣ/, [ˈs̠ɑno̞ɑ(ʔ)]",
+        "audio": ""
+      }
+    },
+    {
+      "id": 26,
+      "Finnish": "kaikki",
+      "English": "all",
+      "partOfSpeech": "adjective, noun",
+      "details": {
+        "pronunciation": "/ˈkɑi̯kːi/, [ˈkɑi̯kːi]",
+        "audio": ""
+      }
+    },
+    {
+      "id": 27,
+      "Finnish": "markka",
+      "English": "former Finnish currency, wealth",
+      "partOfSpeech": "moun",
+      "details": {
+        "pronunciation": "/ˈmɑrkːɑ/, [ˈmɑrkːɑ]",
+        "audio": ""
+      }
+    },
+    {
+      "id": 28,
+      "Finnish": "nyt",
+      "English": "now",
+      "partOfSpeech": "adverb",
+      "details": {
+        "pronunciation": "/ˈnyt/, [ˈnyt̪]",
+        "audio": ""
+      }
+    },
+    {
+      "id": 29,
+      "Finnish": "suuri",
+      "English": "big, great",
+      "partOfSpeech": "adjective",
+      "details": {
+        "pronunciation": "/ˈsuːri/, [ˈs̠uːri]",
+        "audio": ""
+      }
+    }
   ]
 }
